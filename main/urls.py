@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.urls import path,include
+from django.urls import path, include
 
 # Three modules for swagger:
 from rest_framework import permissions
@@ -13,7 +13,7 @@ schema_view = get_schema_view(
         default_version="v1",
         description="Flight Reservation API project provides flight and reservation info",
         terms_of_service="#",
-        contact=openapi.Contact(email="k2rdnz#gmail.com"),  # Change e-mail on this line!
+        contact=openapi.Contact(email="rafe@clarusway.com"),  # Change e-mail on this line!
         license=openapi.License(name="BSD License"),
     ),
     public=True,
